@@ -16,7 +16,7 @@ The code performs dimensionality reduction upon the input dataset, then statisti
 The input and ouput paths, the method used to reduce dimensionality and the matching parameters are to be set in the text file `params.ini` (default name).
 The code is then run:
 ```
-python3 PyFNB.py <name_of_the_parameters_file>.ini
+python3 PyFNB.py -i <name_of_the_parameters_file>.ini
 ```
 
 # Acknowledgement
