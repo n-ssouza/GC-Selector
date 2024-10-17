@@ -1,6 +1,8 @@
 # GC-Selector
-Python script to select extragalactic globular cluster candidates from multi-dimensional (usually photometric) data catalogs.
+Experimental python script to select extragalactic globular cluster candidates from multi-dimensional (usually photometric) data catalogs.
 The code performs dimensionality reduction upon the input dataset, then statistical matching is applied within the reduced space to select candidates.
+
+**This is by no means a definite or universal procedure to select extragalactic globular cluster candidates.** It is one of the ways to approach this problem.  
 
 # Requirements
 Both Python and R languages are required because the MatchIt R library is used for statistical matching.
