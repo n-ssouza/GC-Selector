@@ -22,7 +22,7 @@ Both Python and R languages are required because the MatchIt R library is used f
 **R libraries required:**
 - MatchIt
 
-# Assumptions about the input dataset
+# Assumptions about the input dataset format
 This code assumes the input dataset to be a CSV file.
 It also assumes the input CSV to have:
 - columns with errors for each of the quantities of interest (in case you want to use maximum likelihood PCA),
