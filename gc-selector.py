@@ -170,7 +170,7 @@ def main():
 
     new_labels = []
     for i in range(len(data)):
-        if i in data[data['GCs'] > 0].index:
+        if i in data[data[GC_flag_column_name] > 0].index:
             new_labels.append('Confirmed')
         elif weights[i] > weight_cut:
             new_labels.append('Candidate')
